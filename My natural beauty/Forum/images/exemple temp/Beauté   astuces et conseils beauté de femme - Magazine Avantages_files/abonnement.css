@@ -1,0 +1,8 @@
+#abonnement {margin:0 0 20px 0;overflow:hidden;padding-bottom:10px;width:300px;box-shadow:2px 1px 5px 0 #656565;}
+#abonnement .titre {float:left;font-size:24px;padding:15px 10px;width:300px;color:#654B66;}
+#abonnement .liens {float:left;font-size:12px;width:150px;margin-left:10px;}
+#abonnement .liens .mois {color:#000;margin-bottom:50px 0;font-weight:bold;padding-bottom:40px;}
+#abonnement .liens a {line-height:18px;display:block;color:#000000;text-decoration:none;text-transform:uppercase;margin-top:10px;font-weight:bold;}
+#abonnement .liens a:hover{text-decoration:underline;}
+#abonnement .image {float:right;width:122px;margin-right:10px;}
+#abonnement .image img{width:122px;}

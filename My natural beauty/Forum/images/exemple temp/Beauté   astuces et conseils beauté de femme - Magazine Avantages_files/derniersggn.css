@@ -1,0 +1,14 @@
+.entrynews{float:left;margin:2px 4px 5px 7px;width:333px;height:410px;}
+.entrynews .image{margin:5px;border:1px solid #ccc;}
+.entrynews .image, .entrynews .image img{width:330px;height:330px;}
+.entrynews .texte{margin:5px;margin-top:10px;}
+.entrynews .titre h3{display:block;font-size:20px;margin:0px 0 5px 0;line-height:22px;color:#000;font-weight:normal;}
+.entrynews .rubrique h1, .entrynews .rubrique h2, .entrynews .rubrique h3{font-weight:normal;margin-bottom:6px;}
+.entrynews .rubrique h2, .entrynews .rubrique h3{font-size:16px;}
+.entrynews.first{margin:5px 5px 0px 7px;width:680px;height:auto;}
+.entrynews.first .image{width:330px;height:330px;border:1px solid #ccc;float:left;}
+.entrynews.first .image img{width:330px;height:330px;}
+.entrynews.first .titre h3{font-size:22px;font-weight:normal;}
+.entrynews.first .texte{float:right;width:319px;margin-top:50px;margin-right:10px;}
+.entrynews.first .rubrique{font-size:20px;}
+.entrynews.first .resume{font-size:14px;font-weight:normal;}

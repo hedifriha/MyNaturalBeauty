@@ -1,0 +1,235 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+	<head>
+		<title>Natural Beauty Template | About :: Shine</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/superfish.css" media="screen">
+		<link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
+		<script src="js/jquery.js"></script>
+		<script src="js/superfish.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script>
+		(function($){ //create closure so we can safely use $ as alias for jQuery
+			$(document).ready(function(){
+				// initialise plugin
+				var example = $('#example').superfish({
+					//add options here if required
+				});
+				// buttons to demonstrate Superfish's public methods
+				$('.destroy').on('click', function(){
+					example.superfish('destroy');
+				});
+				$('.init').on('click', function(){
+					example.superfish();
+				});
+				$('.open').on('click', function(){
+					example.children('li:first').superfish('show');
+				});
+				$('.close').on('click', function(){
+					example.children('li:first').superfish('hide');
+				});
+			});
+		})(jQuery);
+		</script>
+	</head>
+	<body>
+				<!---start-wrap---->
+		<div class="wrap">
+			<!---start-header---->
+			<div class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" width="300px" height="150px" title="naturex" /></a>
+				</div>
+				<div class="top-social-icons">
+					<ul>
+						<li><a class="icon1" href="https://www.facebook.com/pages/My-Natural-Beauty/1441957062708617?fref=ts"target="_blank"> </a></li>
+						<li><a class="icon2" href="https://twitter.com/MyN_Beauty"target="_blank"> </a></li>
+						<li><a class="icon3" href="https://plus.google.com/u/0/115857592855335052324/posts"target="_blank"> </a></li>
+						<li><a class="icon4" href="http://instagram.com/mynaturalbeautygroup"target="_blank"> </a></li>
+						
+						<!--<li><a  href="login.html" class="type1">se connecter </a></li>-->
+
+
+					</ul>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<div class="clear"> </div>
+			<!---End-header---->
+			<!---start-top-nav---->
+			<div class="top-nav">
+						<ul class="sf-menu sf-menu2" id="example">
+							<li  class="current home">
+								<a href="indexfront.html"></a>
+						</li>
+						<li class="active">
+							<a href="about.html">A-Propos</a>
+						</li>
+						<li>
+							<a href="afficherFront.html"> Articles</a>
+						
+						</li>
+						<li>
+							<a href="produit.html">Produits</a>
+						</li>
+						
+						<li>
+							<a href="centre.html">Centres</a>
+						</li>
+						<li>
+							<a href="forum.html">Forum</a>
+						</li>
+						
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>	
+						<div class="clear"> </div>
+					</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<!---End-header---->
+			</div>
+			<!---start-content----->
+			<div class="content">
+				<!---start-services----->
+				<div class="gallery1">
+				<div class="wrap">
+					<h1>Nos<span>Articles</span></h1>
+					<div class="clear"> </div>
+					<div class="container">
+
+					<div class="top-grids">
+					<div class="wrap">
+					
+						<div class="top-grid ">
+							<a class="icon01" href="rechercheVisages2.php"> </a>
+							<h2><span>Visages</h2>
+							
+						</div>
+						
+						<div class="top-grid ">
+							<a class="icon02" href="rechercheCheveux2.php"> </a>
+						
+							<h2><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cheveux</h2>
+							
+						</div>
+						<br></br>
+						<br></br><br></br><br></br><br></br><br></br><br></br>
+						<br></br><br></br><br></br><br></br><br></br>
+						
+						
+						<div class="top-grid ">
+							<a class="icon03" href="rechercheMains2.php"> </a>
+							<h2><span>Mains/Pieds</h2>
+							
+						</div>
+						 <div class="top-grid ">
+							<a class="icon04" href="rechercheCorps2.php"> </a>
+							<h2><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Corps</h2>
+							
+						</div> 
+					
+						<div class="clear"> </div>
+						<div class="clear"> </div>
+					</div>
+					
+					
+					
+					
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>	
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			
+			},
+			
+			hoverEffect: function () {
+			
+				// Simple parallax effect
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);				
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+	});	
+	</script>
+	</div><!-- container -->
+	<script type="text/javascript" src="js/fliplightbox.min.js"></script>
+						<script type="text/javascript">$('body').flipLightBox()</script>
+						<div class="clear"> </div>
+				</div>
+			</div>
+			<!---End-about---->
+			<!---End-content----->
+		</div>
+		<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+		<!---start-footer----->
+		<div class="footer">
+			<div class="wrap">
+				<div class="footer-left">
+					<a href="index.html">NATURAL BEAUTY</a>
+				</div>
+				<div class="footer-right">
+					<p>Créer par <a href="http://w3layouts.com/">Shine</a></p>
+					<script type="text/javascript">
+							$(document).ready(function() {
+								/*
+								var defaults = {
+						  			containerID: 'toTop', // fading element id
+									containerHoverID: 'toTopHover', // fading element hover id
+									scrollSpeed: 1200,
+									easingType: 'linear' 
+						 		};
+								*/
+								
+								$().UItoTop({ easingType: 'easeOutQuart' });
+								
+							});
+						</script>
+   					 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---End-footer----->
+		<!---End-wrap---->
+		
+	</body>
+</html>
+

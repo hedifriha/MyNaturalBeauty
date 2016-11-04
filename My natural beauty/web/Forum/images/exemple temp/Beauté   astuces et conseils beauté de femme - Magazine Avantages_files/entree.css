@@ -1,0 +1,17 @@
+#articlesbottomentree {margin:20px 0px 0 0px;}
+#articlesbottomentree .titre {font-size:16px;padding:8px 0 10px 10px;font-weight:normal;margin-bottom:10px;background-color:#333333;color:#fff;}
+#articlesbottomentree .content {background-repeat:repeat-x;padding:3px 0 0 12px;}
+#articlesbottomentree .content .element {overflow:hidden;margin:0px 0px 3px 0px;position:relative;padding-bottom:10px;}
+#articlesbottomentree .content .element .image {float:left;width:215px;height:215px;border:1px solid #ccc;}
+#articlesbottomentree .content .element .image img {width:215px;height:215px;}
+#articlesbottomentree .content .element .texte {float:left;width:445px;height:187px;margin-left:5px;position:relative;padding-top:30px;}
+#articlesbottomentree .content .element .texte .rubrique {font-size:18px;padding:0px 5px 0px 5px;}
+#articlesbottomentree .content .element .texte .titreggn {padding:5px 5px 10px 5px;}
+#articlesbottomentree .content .element .texte .titreggn a {color:#000000;font-size:20px;line-height:23px;font-weight:normal;}
+#articlesbottomentree.tq .content .element .texte .titreggn a, #articlesbottomentree.concours .content .element .texte .titreggn a {width:350px;display:block;}
+#articlesbottomentree .content .element .texte .resume {padding:0px 5px 0px 5px;font-size:15px;}
+#articlesbottomentree .content .element .texte .resume a {color:#000000;}
+#articlesbottomentree .content .element .texte .suite {position:absolute;bottom:0px;right:5px;}
+#articlesbottomentree .content .element .texte .suite a {color:#6D6D6D;text-decoration:none;font-size:14px;padding-left:15px;}
+#articlesbottomentree .content .element .texte .suite a:hover {text-decoration:underline;}
+#articlesbottomentree #sharetools {position:absolute;bottom:0px;left:0px;float:none!important;margin-top:10px!important;margin-left:5px!important;}

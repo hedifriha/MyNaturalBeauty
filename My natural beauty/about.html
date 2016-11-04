@@ -1,0 +1,243 @@
+
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+	<head>
+	<style type="text/css">
+      a.type1 { color: white; }
+	  </style>
+		<title>a-propos</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/superfish.css" media="screen">
+		<link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
+		<script src="js/jquery.js"></script>
+		<script src="js/superfish.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script>
+		(function($){ //create closure so we can safely use $ as alias for jQuery
+			$(document).ready(function(){
+				// initialise plugin
+				var example = $('#example').superfish({
+					//add options here if required
+				});
+				// buttons to demonstrate Superfish's public methods
+				$('.destroy').on('click', function(){
+					example.superfish('destroy');
+				});
+				$('.init').on('click', function(){
+					example.superfish();
+				});
+				$('.open').on('click', function(){
+					example.children('li:first').superfish('show');
+				});
+				$('.close').on('click', function(){
+					example.children('li:first').superfish('hide');
+				});
+			});
+		})(jQuery);
+		</script>
+		<script>
+		jQuery(function(){
+			jQuery('#camera_wrap_1').camera({
+				height: '500',
+				pagination: false,
+				thumbnails: false,
+				imagePath: '../images/'
+			});
+
+		});
+	</script>
+	</head>
+	<body>
+		<!---start-wrap---->
+		<div class="wrap">
+			<!---start-header---->
+			<div class="header">
+				<div class="logo">
+					<a href="indexfront.html"><img src="images/logo.png" width="300px" height="100px" title="My Natural Beauty" /></a>
+				</div>
+				<div class="top-social-icons">
+					<ul>
+						<li><a class="icon1" href="https://www.facebook.com/pages/My-Natural-Beauty/1441957062708617?fref=ts"target="_blank"> </a></li>
+						<li><a class="icon2" href="#"> </a></li>
+						<li><a class="icon3" href="#"> </a></li>
+						<li><a class="icon4" href="#"> </a></li>
+						<li><a class="connect" href="log.html" ></a></li>
+
+					</ul>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<div class="clear"> </div>
+			<!---End-header---->
+			<!---start-top-nav---->
+			<div class="top-nav">
+						<ul class="sf-menu sf-menu2" id="example">
+							<li  class="current home">
+							<a href="index.html" target="_blank"></a>
+						</li>
+						<li class="active">
+							<a href="about.html" target="_blank">A-Propos</a>
+						</li>
+						<li>
+							<a href="afficherFront2.html" target="_blank"> Articles</a>
+						
+						</li>
+						<li>
+							<a href="produitp.html" target="_blank">Produits</a>
+						</li>
+						
+						<li>
+							<a href="centre.html" target="_blank">Centres</a>
+						</li>
+						<li>
+							<a href="Forum/indexforum.php" target="_blank">Forum</a>
+						</li>
+						
+						<li>
+							<a href="inscription.html" target="_blank">Inscription</a>
+						</li>
+						<div class="clear"> </div>
+					</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			<!---start-content----->
+			<div class="content">
+			
+				<!---start-about----->
+				<div class="about">
+					<div class="wrap">
+				<div class="about-grids">
+					<div class="about-grid">
+						<h3>Natural Beauty</h3>
+						<a href="#"><img src="images/about1.jpg" title="about"></a>
+						<span>Qui sommes nous?</span>
+						<p>Dans le but de bien s’occuper de notre santé et notre beauté le site « Natural beauty » vous offre des astuces intelligentes pour atteindre vos objectif en toute sécurité. </p>
+						
+					</div>
+					<div class="about-grid center-grid1">
+						<h3>Pour quoi vous nous choisissez?</h3>
+						<p>De nos jour on trouve des milliers de produit cosmétiques/chimique, partout dans les marchés mais rare ou on trouve des produit efficace aves des bons résultats. En plus pour prendre soin de notre beauté il faut tout d’abords
+						gaspiller beaucoup d’argent successivement, aussi il faut consacrer beaucoup de notre temps libre pour aller aux centres et maisons d’esthétique et coiffure. Mais pourquoi  tous cet effort sachant qu’on a la bonne solution dans nos cuisine et nos jardins ? Pour quoi l’être humain a oublié que la nature nous offres des produit très efficaces et surtout sans le risque des effets secondaires ?  De se fait notre groupe « Shine » a décidé de créer un site dans lequel on va poster des astuces simples mais efficaces à base des plantes et des produit purement naturels dans le cadre d’aider l’Homme à s’occuper de sa santé et beauté facilement.</p>
+					
+					</div>
+					<div class="about-grid last-grid1">
+						<h3>Nos partenaires</h3>
+						<div class="about-team">
+							<div class="client">
+								<div class="about-team-left">
+									<a href="http://www.yves-rocher.com/" target="_blank"><img src="images/yves1.png" title="client-name"></a>
+								</div>
+								<div class="about-team-right">
+									<p>Pour votre confort,tous nos produits sont testés en laboratoire. Notre entreprise a été l'une des premières entreprises européennes à renoncer à tester ses produits finis sur animaux.</p>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="client">
+								<div class="about-team-left">
+									<a href="http://www.cerinabeaute.com/index.php/fr/"target="_blank"><img src="images/cerina1.png" title="client-name"></a>
+								</div>
+								<div class="about-team-right">
+									<p>Des ingrédients naturels, issus principalement de l'agriculture biologique, quelques ingrédients de synthèse non remplaçables par des ingrédients d'origine naturelle 
+									incomparable à ceux des produits conventionnels).</p>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="client">
+								<div class="about-team-left">
+									<a href="http://www.unebeauty.com/"target="_blank"><img src="images/une1.png" title="client-name"></a>
+								</div>
+								<div class="about-team-right">
+									<p>Découvrez UNE Natural Beauty, le maquillage naturel à sensation peau nue. Retrouvez toutes les nouveautés UNE, les produits de Teint, des Yeux, des Lèvres ...</p>
+								</div>
+								<div class="clear"> </div>
+							</div>
+							<div class="client">
+								<div class="about-team-left">
+									<a href="http://www.aloevera-bienetre-beaute.fr/accueil/index.html"target="_blank"><img src="images/forever1.png" title="client-name"></a>
+								</div>
+								<div class="about-team-right">
+									<p>Des Produits Uniques. Forever Living Products est le premier producteur, manufacturier et distributeur d’Aloès au monde.</p>
+								</div>
+								<div class="clear"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div><br />
+			<div class="ourteam">
+				<div class="wrap">
+		<!--	<h3>NOTRE<span> EQUIPE</span></h3>
+									<div class="section group">
+										<div class="grid_1_of_4 images_1_of_4">
+											 <img src="images/team1.jpg">
+											 <h4>Mohamed Hedi Friha </h4>
+											
+										</div>
+										<div class="grid_1_of_4 images_1_of_4">
+											 <img src="images/team2.jpg">
+											 <h4>Dorra Chaffai</h4>
+											 
+										</div>
+										<div class="grid_1_of_4 images_1_of_4">
+											 <img src="images/team3.jpg">
+											 <h4>Oumayma Gudria </h4>
+											
+										</div>
+										<div class="grid_1_of_4 images_1_of_4">
+											 <img src="images/team4.jpg">
+											 <h4>Hajer Boukmicha </h4>
+											 
+										</div>
+										<div class="grid_1_of_4 images_1_of_4">
+											 <img src="images/team5.jpg">
+											 <h4>Nourdine Fakhfekh</h4>
+											
+										</div>
+										
+									</div>
+								</div>						
+			<!---end-about----->
+			</div>
+			</div>
+			<!---End-content----->
+		</div>
+		</div>
+		<!---start-footer----->
+		<div class="footer">
+			<div class="wrap">
+				<div class="footer-left">
+					<a href="index.html">NATURAL BEAUTY</a>
+				</div>
+				<div class="footer-right">
+					<p>Crée par <a href="http://w3layouts.com/">Shine</a></p>
+					<script type="text/javascript">
+							$(document).ready(function() {
+								/*
+								var defaults = {
+						  			containerID: 'toTop', // fading element id
+									containerHoverID: 'toTopHover', // fading element hover id
+									scrollSpeed: 1200,
+									easingType: 'linear' 
+						 		};
+								*/
+								
+								$().UItoTop({ easingType: 'easeOutQuart' });
+								
+							});
+						</script>
+   					 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---End-footer----->
+		<!---End-wrap---->
+		
+	</body>
+</html>
+

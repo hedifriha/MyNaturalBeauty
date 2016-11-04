@@ -1,0 +1,294 @@
+
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+	<head>
+	<style type="text/css">
+      a.type1 { color: white; }
+	  </style>
+		<title>Natural Beauty Template | Home :: Shine</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/superfish.css" media="screen">
+		<link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
+		<script src="js/jquery.js"></script>
+		<script src="js/superfish.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		
+		<META NAME="{DESCRIPTION" CONTENT="Produit visage">
+        <META NAME="KEYWORDS" CONTENT="Beauté naturelle ,beauté ,beauty , naturellle , my natural beauty , my natural">
+		<script>
+		
+		(function($){ //create closure so we can safely use $ as alias for jQuery
+			$(document).ready(function(){
+				// initialise plugin
+				var example = $('#example').superfish({
+					//add options here if required
+				});
+				// buttons to demonstrate Superfish's public methods
+				$('.destroy').on('click', function(){
+					example.superfish('destroy');
+				});
+				$('.init').on('click', function(){
+					example.superfish();
+				});
+				$('.open').on('click', function(){
+					example.children('li:first').superfish('show');
+				});
+				$('.close').on('click', function(){
+					example.children('li:first').superfish('hide');
+				});
+			});
+		})(jQuery);
+		</script>
+		<script>
+		jQuery(function(){
+			jQuery('#camera_wrap_1').camera({
+				height: '500',
+				pagination: false,
+				thumbnails: false,
+				imagePath: '../images/'
+			});
+
+		});
+	</script>
+	</head>
+	<body>
+		<!---start-wrap---->
+		<div class="wrap">
+			<!---start-header---->
+			<div class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" width="300px" height="150px" title="naturex" /></a>
+				</div>
+				<div class="top-social-icons">
+					<ul>
+						<li><a class="icon1" href="https://www.facebook.com/pages/My-Natural-Beauty/1441957062708617?fref=ts" target="_blank"> </a></li>
+						<li><a class="icon2" href="https://twitter.com/MyN_Beauty" target="_blank"> </a></li>
+						<li><a class="icon3" href="https://plus.google.com/u/0/115857592855335052324/posts" target="_blank"> </a></li>
+						<li><a class="icon4" href="http://instagram.com/mynaturalbeautygroup target="_blank"> </a></li>
+                        <li><a  href="login.html" class="type1">se connecter </a></li>
+					</ul>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<div class="clear"> </div>
+			<!---End-header---->
+			<!---start-top-nav---->
+			<div class="top-nav">
+						<ul class="sf-menu sf-menu2" id="example">
+							<li  class="current home">
+							<a href="index.html"></a>
+						</li>
+						<li class="active">
+							<a href="about.html">A-Propos</a>
+						</li>
+						<li>
+							<a href="afficherFront2.html"> Articles</a>
+						
+						</li>
+						<li>
+							<a href="produit.html">Produits</a>
+						</li>
+						
+						<li>
+							<a href="centre.html">Centres</a>
+						</li>
+						<li>
+							<a href="forum.html">Forum</a>
+						</li>
+						
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>	
+						<div class="clear"> </div>
+					</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<!---End-header---->
+			<!---start-image-slider---->
+			 <div class="slider">
+			 	<div class="wrap">
+			<div class="fluid_container">
+		        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+		            <div data-thumb="images/slider3.jpg" data-src="images/slider3.jpg">
+		                <div class="camera_caption fadeFromBottom">
+		                	<h3>Votre visage</h3>
+		                    <p>Pourquoi infliger à notre visages des substances chimiques inutiles? Essayez plutôt ces soins à base de produits naturels et efficaces.</p>
+		                    
+		                </div>
+		            </div>
+		           <div data-thumb="images/slider1.jpg" data-src="images/slider1.jpg" div="test">
+		                <div class="camera_caption fadeFromBottom">
+		                	<h3>Votre corps</h3>
+		                    <p>Puisez votre beaute dans la nature et ce qu’elle vous offre de meilleur avec ces soins 100 % naturels ! Faites rimer beaute, nature et economie pour le bien de votre corps.</p>
+		                    
+		                </div>
+		            </div>
+		             <div data-thumb="images/slider2.jpg" data-src="images/slider2.jpg">
+		                <div class="camera_caption fadeFromBottom">
+		                	<h3>Laver sa peau matin et soir</h3>
+		                    <p>Il est impératif de nettoyer son visage avec un soin adapté à son type de peau, matin et soir. Le nettoyage débarrasse la peau des impuretés (sébum, pollution, toxines…) et la laisse ainsi respirer.</p>
+		                </div>
+		            </div>
+		             <div data-thumb="images/slider4.jpg" data-src="images/slider4.jpg">
+		                <div class="camera_caption fadeFromBottom">
+		                	<h3>Soin des mains/pieds</h3>
+		                    <p>Vos mains & vos pieds on besoin d'etre bien entretenu pour plaire a votre cheri et pour se sentir belle</p>
+		                    
+		                </div>
+		            </div>
+		            <div data-thumb="images/slider5.jpg" data-src="images/slider5.jpg">
+		                <div class="camera_caption fadeFromBottom">
+		                	<h3>Alimentation</h3>
+		                    <p> Il vaut mieux avoir une alimentation saine sur le long terme plutôt que de faire des régimes drastiques par à-coups.</p>
+		                    
+		                </div>
+		            </div>
+		            <div data-thumb="images/slider6.jpg" data-src="images/slider6.jpg">
+		                <div class="camera_caption fadeFromBottom">
+		                	<h3>Votre cheveux</h3>
+		                    <p>Preparer vous même des masques de soins pour cheveux. Les ingredients, vous les avez surement deja dans votre cuisine, et la preparation est tres simple.</p>
+		                    
+		                </div>
+		            </div>
+		        </div><!-- #camera_wrap_1 -->
+		        <script type='text/javascript' src='js/jquery.min.js'></script>
+			    <script type='text/javascript' src='js/jquery.mobile.customized.min.js'></script>
+			    <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+			    <script type='text/javascript' src='js/camera.min.js'></script> 
+				</div>
+       			<div class="clear"> </div>
+       			<div class="shadow">
+       				<img src="images/shadow.png" alt="" />
+       			</div>
+			<!---End-image-slider---->
+			</div>
+			<!---start-content----->
+			<div class="content">
+				<!---start-top-grids----->
+				<div class="top-grids">
+					<div class="wrap">
+						<div class="top-grid top-grid1">
+							<a class="icon11" href="#"> </a>
+							<h2><span>Prochain</span>Tirage au sort</h2>
+							<p> Natural beauty offre un cadeau pour un de nos chers fans.</p>
+						</div>
+						<div class="top-grid top-grid2">
+							<a class="icon22" href="afficherFC2.php"> </a>
+							<h2><span>Nos</span>Conseils</h2>
+							<p>Oublions les cosmétiques et leurs mal fait, laissez la nature vous tenter.</p>
+						</div>
+						<div class="top-grid last-grid">
+							<a class="icon33" href="#"> </a>
+							<h2><span>Produits</span>soldés</h2>
+							<p>Soyez les premiéres à en profiter</p>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<!---End-top-grids----->
+				<!---start-mid-grids----->
+				<div class="mid-grids">
+					<div class="wrap">
+					<div class="mid-grids-head">
+						<div class="mid-grids-head-left">
+							<h4><span>Nos</span>Articles</h4>
+						</div>
+						<div class=="clear"> </div>
+					</div>
+					<div class="mid-grid1 last-grid">
+						<div class="mid-grid effect">
+							<img src="images/g1.jpg" />
+					        <div class="mask">
+								<a href="#" class="info">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="mid-grid1 last-grid">
+						<div class="mid-grid effect">
+							<img src="images/g2.jpg" />
+					        <div class="mask">
+								<a href="#" class="info">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="mid-grid1 last-grid1">
+						<div class="mid-grid effect">
+							<img src="images/g3.jpg" />
+					        <div class="mask">
+								<a href="#" class="info">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="mid-grid1 last-grid">
+						<div class="mid-grid effect">
+							<img src="images/g4.jpg" />
+					        <div class="mask">
+								<a href="#" class="info">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="mid-grid1 last-grid">
+						<div class="mid-grid effect">
+							<img src="images/g5.jpg" />
+					        <div class="mask">
+								<a href="#" class="info">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="mid-grid1 last-grid1">
+						<div class="mid-grid effect">
+							<img src="images/g6.jpg" />
+					        <div class="mask">
+								<a href="#" class="info">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				</div>
+				<!---End-mid-grids----->
+				<!---start-bottom-grids----->
+				<br> </br>
+				
+			</div>
+			<!---End-content----->
+		</div>
+		</div>
+		<!---start-footer----->
+		<div class="footer">
+			<div class="wrap">
+				<div class="footer-left">
+					<a href="index.html">NATURAL BEAUTY</a>
+				</div>
+				<div class="footer-right">
+					<p>Crée par <a href="http://w3layouts.com/">Shine</a></p>
+					<script type="text/javascript">
+							$(document).ready(function() {
+								/*
+								var defaults = {
+						  			containerID: 'toTop', // fading element id
+									containerHoverID: 'toTopHover', // fading element hover id
+									scrollSpeed: 1200,
+									easingType: 'linear' 
+						 		};
+								*/
+								
+								$().UItoTop({ easingType: 'easeOutQuart' });
+								
+							});
+						</script>
+   					 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---End-footer----->
+		<!---End-wrap---->
+		
+	</body>
+</html>
+

@@ -1,0 +1,8 @@
+#debug {text-align:left;position:absolute;left:0px;top:-0px;width:100%;overflow:hidden;z-index:500000;font-size:11px;}
+#debugContent {-moz-box-shadow:0px 0px 20px #000;padding:5px;background-color:#FFF;}
+div.CORE_WIdget {}
+#debug h1 {color:#000;font-family:arial;font-size:1.2em;}
+div.debugSQL {border:solid 1px;padding:5px;margin-bottom:11px;background-color:#EEE;font-size:10px;}
+input.button_recherchez {background-color:transparent;border:none;background-image:url('/image/bouton/recherchez.png');width:126px !important;height:20px !important;}
+#debugContent #tabs-arbo .marge{Margin-left:10px;Margin-bottom:5px;}
+#debugContent #tabs-arbo h4{Margin-top:5px;Margin-bottom:5px;}

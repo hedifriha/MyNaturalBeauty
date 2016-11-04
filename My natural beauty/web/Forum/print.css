@@ -1,0 +1,25 @@
+body { 
+ 
+  background : #ffffff; 
+  font-family : "Times New Roman", Times, serif;
+  font-size : 12pt;
+background-image:url(images/images-26.jpg);
+
+}
+
+a { 
+  text-decoration : underline; 
+  color : pink; 
+}
+
+a:link:after, a:visited:after {
+content: " (" attr(href) ") ";
+font-size: 70%;
+}
+
+nav, sidebar, footer, header, aside { 
+  display : none; 
+}
+#inscri{
+color:pink;
+}

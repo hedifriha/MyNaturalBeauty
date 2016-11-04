@@ -1,0 +1,10 @@
+#filAriane {background-color:#FFFFFF;color:#000000;font-size:12px;margin:0 auto;overflow:hidden;padding-left:0;width:1000px;}
+*+html #filAriane {width:670px;}
+#filAriane .content {margin:5px auto 5px;overflow:hidden;width:980px;}
+#filAriane .date {font-weight:bold;font-size:12px;float:left;text-transform:capitalize;margin:2px 5px 0px 0px;}
+#filAriane ul {float:left;line-height:14px;}
+#filAriane ul li {float:left;margin:1px 0px 0px 0px;padding:0px;}
+#filAriane ul span {font-size:14px;float:left;padding:0px 10px 0px 10px;}
+#filAriane ul li.active a {color:#542f56;}
+#filAriane ul li a {color:#000000;text-decoration:none;}
+#filAriane ul li a:hover {text-decoration:underline;}

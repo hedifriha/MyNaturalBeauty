@@ -1,0 +1,91 @@
+
+<!-- saved from url=(0047)http://www.magazine-avantages.fr/js/dynamic.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<script type="text/javascript">
+
+document.domain="magazine-avantages.fr";
+
+sas_tmstp=Math.round(Math.random()*10000000000);sas_masterflag=1;
+
+function SmartAdServer(sas_pageid,sas_formatid,sas_target) {
+	if (sas_masterflag==1) {sas_masterflag=0;sas_master='M';} else {sas_master='S';};
+
+	document.write('<SCR'+'IPT firstCall="true" SRC="http://ww50.smartadserver.com/call/pubj/' + sas_pageid + '/' + sas_formatid + '/'+sas_master + '/' + sas_tmstp + '/' + escape(sas_target) + '?" ></SCR'+'IPT>');
+}
+
+function generateBlockContent(block) {
+
+
+	if(block.type=='smartAdServerContent') {
+		var buffer=SmartAdServer(
+			block.data.sas_pageid,
+			block.data.sas_formatid,
+			block.data.sas_target
+		);
+		return buffer;
+		//document.write(buffer);
+	}
+	return '';
+
+	/*
+	waitDocument(function() {
+		content=document.getElementsByTagName('body')[0].innerHTML;
+		updateParent(block, content)
+	});
+	*/
+}
+
+
+function waitDocument(callback) {
+
+	if(!document.getElementsByTagName('body')[0]) {
+		setTimeout(function() {
+			waitDocument(callback);
+		}, 50);
+	}
+	else {
+		return callback();
+	}
+}
+
+
+
+var index=0;
+var lock=false;
+
+function updateParent(block, content) {
+	setTimeout(function() {
+		if(document.getElementsByTagName('body')[0].innerHTML!=content) {
+			waitDocument(function() {
+				window.parent.document.getElementById(block.id).innerHTML=document.getElementsByTagName('body')[0].innerHTML;
+				//document.getElementsByTagName('body')[0].innerHTML='';
+			});
+			index++;
+			if(blocks[index]) {
+				setTimeout(function() {
+					//alert(index);
+					generateBlockContent(blocks[index]);
+				}, 100);
+			}
+			return;
+		}
+		console.log(document.getElementsByTagName('body')[0].innerHTML);
+		setTimeout(function() { updateParent(block, content) },200);
+	},500);
+}
+
+
+
+</script>
+</head>
+
+<body>
+53114f2f4ce1e
+
+
+</body></html>

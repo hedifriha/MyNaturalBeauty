@@ -1,0 +1,33 @@
+div.poll form {overflow:hidden;zoom:1;border:1px solid #F00;;}
+div.poll .text {font-weight:bold;color:#666;}
+div.poll li {list-style:none;margin-left:0 !important;margin-top:5px !important;}
+div.poll input {vertical-align:middle;border:none;}
+div.poll label {vertical-align:middle;}
+div.poll button, div.poll button:active {padding:0;margin:0;border:0;background:none;line-height:17px;width:70px;text-align:right;float:right;}
+div.pollResults div.choice {clear:both;font-weight:bold;float:left;width:120px;}
+div.pollResults {margin-top:5px;zoom:1;}
+div.pollResults div.values {float:left;width:110px;margin-left:10px;}
+div.pollResults span.number {padding-left:5px;font-size:10px;}
+div.pollResults span.percent {text-align:right;font-size:10px;padding-left:5px;display:block;float:left;line-height:12px;}
+#sondage div.pollResults div.bar {height:15px;padding-left:5px;padding-top:6px;}
+div.pollResults div.bar img {float:left;}
+div.pollResults div.bar div.progress {color:#fff;text-align:center;font-size:10px;background-image:url("/image/background/bg.png");background-repeat:repeat-x;float:left;width:0;line-height:12px;}
+#sondage .more{margin-top:10px !important;margin-top:20px;text-align:right;}
+#sondage .more a{color:#000000;}
+.sondage_vote_cosmo input {position:absolute;bottom:-15px;right:10px;width:67px;height:67px;background-image:url(/image/button/votesondage.png);border:0px;background-color:transparent;}
+.sondage_vote_cosmo input:hover {cursor:pointer;}
+.sondage_boite_cosmo {width:300px;margin-bottom:10px;box-shadow:2px 1px 5px 0 #656565;}
+.sondage_boite_cosmo .titre {float:left;font-size:24px;padding:15px 10px;width:300px;color:#654B66;}
+.sondage_texte_cosmo {padding:10px 10px 20px 10px;position:relative;}
+.sondage_texte_cosmo .question {font-size:18px;line-height:22px;margin-bottom:8px;}
+.sondage_texte_cosmo li {font-size:14px;width:225px;}
+.widgetSondage {margin-top:10px;text-align:left;}
+.widgetSondage label {display:block;.float:left;}
+.widgetSondage input {border:0 none !important;float:left;height:11px;margin:0 5px 0 0;padding:0;width:11px;}
+.widgetSondage .zoneTop {background-color:#EC1572;color:#FFF;padding:5px 10px;}
+.widgetSondage .zoneMiddle {padding:7px 10px;font-size:18px;color:#654B66;line-height:22px;}
+.widgetSondage .zoneBottom {padding:0px 5px 5px;}
+.widgetSondage .zoneBottom ul{margin-left:15px;}
+.widgetSondage .zoneBottom li {display:block;clear:both;margin-bottom:4px;}
+.widgetSondage .zoneBottom .buttonSondage {padding:10px 0;text-align:center;}
+.widgetSondage .zoneBottom button {background:transparent url(/image/button/votesondage.png) no-repeat center center;border:0 none;color:#FFFFFF !important;cursor:pointer;height:80px;margin:0;padding:0;width:80px;}

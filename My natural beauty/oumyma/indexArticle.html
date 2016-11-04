@@ -1,0 +1,180 @@
+<html> 
+<head> 
+<meta charset="utf-8">
+<title>Natural Beauty Template | About :: Shine</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/superfish.css" media="screen">
+		<script src="js/jquery.js"></script>
+		<script src="js/superfish.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+	
+
+<script language="javascript" type="text/javascript">
+function champsVide(){
+	msg="";
+	    if (window.document.form.nom.value==""){
+		msg+="champ Nom est vide \n";
+		}	
+		
+		if (window.document.form.description.value=="")
+		{
+		msg+="champ Description est vide \n";
+		}
+		if (window.document.form.contenu.value=="")
+		{
+		msg+="champ contenu est vide \n";
+		}
+		
+		if (window.document.form.remarque.value=="")
+		{
+		msg+="champ remarque est vide \n";
+		}
+	  
+      }
+
+		
+		return msg;
+	}
+
+	
+	
+function validation(){
+	
+	x= champsVide();
+	
+	
+if ((x=="") ) {
+ alert ("tous les champs sont bien remplis");
+}
+else alert(x);
+	
+	}		
+</script>
+
+</head>
+
+
+<body>
+
+<!--<img src="1621672_10201643503872980_1516573573_n.jpg" width="1510px" />		-->
+        
+			<!---start-wrap---->
+		<div class="wrap">
+			<!---start-header---->
+			<div class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" width="300px" height="100px" title="My Natural Beauty" /></a>
+				</div>
+				<div class="top-social-icons">
+					<ul>
+						<li><a class="icon1" href="https://www.facebook.com/pages/My-Natural-Beauty/1441957062708617?fref=ts"> </a></li>
+						<li><a class="icon2" href="https://twitter.com/MyN_Beauty"> </a></li>
+						<li><a class="icon3" href="https://plus.google.com/u/0/115857592855335052324/posts"> </a></li>
+						<li><a class="icon4" href="http://instagram.com/mynaturalbeautygroup"> </a></li>
+
+					</ul>
+					</div>
+							<div class="clear"> </div>
+			</div>
+			<div class="clear"> </div>
+			<!---End-header---->
+			<!---start-top-nav---->
+			<div class="top-nav">
+						<ul class="sf-menu sf-menu2" id="example">
+							<li  class="current home">
+							<a href="indexArticle.html"></a>
+						</li>
+						<li class="active">
+							<a href="article.html">Ajouter Article</a>
+						</li>
+						<li>
+							<a href="afficherFront.html"> Afficher</a>
+						
+						</li>
+						<li>
+							<a href="AfficherArticlemodiff.php">Modifier</a>
+						</li>
+						
+						<li>
+							<a href="afficherArticlesupp.php">Supprimer</a>
+						</li>
+						<li>
+							<a href="indexArticle.html">Chercher</a>
+						</li>
+						
+						
+						<div class="clear"> </div>
+					</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<!---End-header---->
+			</div>
+	
+	</br></br>
+	</br></br>
+
+
+	
+<fieldset class="recherche">
+<div id="innercontent2">
+<div id="ss">   <br></br>  
+      <legend> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recherche :&nbsp;&nbsp;&nbsp;</legend></div>
+	   <br></br>
+	  <form method="post" action="rechercheArticle.php">
+	  <div id="pp">
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<label><input type="text" name="nom" id="nom" value="" placeholder="saisir le nom de l'article" required/> </label>*
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit"  value="Chercher" /> 
+			
+     <br></br> 
+		<h6> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*champs obligatoires </h6></div>
+		 
+     <br></br>   <br></br> <br></br> <br></br> <br></br> <br></br> 
+</form>
+  
+</div>	  
+</div>
+
+<!---start-footer----->
+  <br></br> <br></br> <br></br> <br></br> <br></br>  
+		<div class="footer">
+			<div class="wrap">
+				<div class="footer-left">
+					<a href="index.html">NATURAL BEAUTY</a>
+				</div>
+				<div class="footer-right">
+					<p>Crée par <a href="http://w3layouts.com/">Shine</a></p>
+					<script type="text/javascript">
+							$(document).ready(function() {
+								/*
+								var defaults = {
+						  			containerID: 'toTop', // fading element id
+									containerHoverID: 'toTopHover', // fading element hover id
+									scrollSpeed: 1200,
+									easingType: 'linear' 
+						 		};
+								*/
+								
+								$().UItoTop({ easingType: 'easeOutQuart' });
+								
+							});
+						</script>
+   					 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---End-footer----->
+		<!---End-wrap---->
+		
+	</body>
+</html>

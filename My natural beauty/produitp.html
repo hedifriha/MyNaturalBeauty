@@ -1,0 +1,303 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+	<head>
+		<title>produitp</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/superfish.css" media="screen">
+		<link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
+		<script src="js/jquery.js"></script>
+		<script src="js/superfish.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		
+		<script>
+		(function($){ //create closure so we can safely use $ as alias for jQuery
+			$(document).ready(function(){
+				// initialise plugin
+				var example = $('#example').superfish({
+					//add options here if required
+				});
+				// buttons to demonstrate Superfish's public methods
+				$('.destroy').on('click', function(){
+					example.superfish('destroy');
+				});
+				$('.init').on('click', function(){
+					example.superfish();
+				});
+				$('.open').on('click', function(){
+					example.children('li:first').superfish('show');
+				});
+				$('.close').on('click', function(){
+					example.children('li:first').superfish('hide');
+				});
+			});
+		})(jQuery);
+		</script>
+	</head>
+	<body>
+	<!---start-wrap---->
+		<div class="wrap">
+			<!---start-header---->
+			<div class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" width="300px" height="100px" title="My Natural Beauty" /></a>
+				</div>
+				<div class="top-social-icons">
+					<ul>
+						<li><a class="icon1" href="https://www.facebook.com/pages/My-Natural-Beauty/1441957062708617?fref=ts"target="_blank"> </a></li>
+						<li><a class="icon2" href="#"> </a></li>
+						<li><a class="icon3" href="#"> </a></li>
+						<li><a class="icon4" href="#"> </a></li>
+						<li><a class="connect" href="log.html" ></a></li>
+
+					</ul>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			<div class="clear"> </div>
+			<!---End-header---->
+			<!---start-top-nav---->
+			<div class="top-nav">
+						<ul class="sf-menu sf-menu2" id="example">
+							<li  class="current home">
+							<a href="indexfront.html" target="_blank"></a>
+						</li>
+						<li class="active">
+							<a href="about.html" target="_blank">A-Propos</a>
+						</li>
+						<li>
+							<a href="afficherFront2.html" target="_blank"> Articles</a>
+						
+						</li>
+						<li>
+							<a href="produitp.html" target="_blank">Produits</a>
+						</li>
+						
+						<li>
+							<a href="centre.html" target="_blank">Centres</a>
+						</li>
+						<li>
+							<a href="Forum/indexforum.php" target="_blank">Forum</a>
+						</li>
+						
+						<li>
+							<a href="inscription.html" target="_blank">Inscription</a>
+						</li>
+						<div class="clear"> </div>
+					</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+	<br><br><br><br><br><br>
+		<div id="portfoliolist">				
+
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">
+			
+					<a href="images/prod1.jpg" class="flipLightBox">
+					<img src="images/p5.jpg"/>
+						<img src="images/prod1.jpg" id="flb-lightbox-image" style="border: 10px solid rgb(255, 255, 255); box-sizing: content-box; width: 0px; height: 0px; opacity: 1; display: inline-block;">
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Masque au citron</a>
+							<span class="text-category">Prix:6dt</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>		
+			
+			<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">						
+					<a href="images/prod2.jpg" class="flipLightBox">
+						<img src="images/p9.jpg"  alt="Image 2" style=" top :0px;"/>
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Huile de soleil</a>
+							<span class="text-category">Prix:9dt</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<a href="images/prod3.jpg" class="flipLightBox">
+						<img src="images/p10.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Coffret pour marier</a>
+							<span class="text-category">Prix:35dt</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<a href="images/prod4.jpg" class="flipLightBox">
+						<img src="images/p15.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Savon &agrave; l'huile d'olive</a>
+							<span class="text-category">Prix:7dt</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<a href="images/prod5.jpg" class="flipLightBox">
+						<img src="images/s4.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Teinture</a>
+							<span class="text-category">Prix:13dt</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="portfolio logo1" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<a href="images/prod6.jpg" class="flipLightBox">
+						<img src="images/s6.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Ensemble de soin de corps</a>
+							<span class="text-category">Prix:25dt</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																																							
+			
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">			
+					<a href="images/prod7.jpg" class="flipLightBox">
+						<img src="images/p16.jpg"  alt="Image 2" />
+					</a>
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Stique pour aiselle</a>
+							<span class="text-category">Prix:6dt</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>													
+																			
+		</div>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>	
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			
+			},
+			
+			hoverEffect: function () {
+			
+				// Simple parallax effect
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);				
+			
+			}
+
+		};
+		
+		// Run the show!
+		filterList.init();
+		
+		
+	});	
+	</script>
+	</div><!-- container -->
+	
+	<script type="text/javascript" src="js/fliplightbox.min.js"></script>
+	<script type="text/javascript">$('body').flipLightBox()</script>
+	
+	<div class="clear"> </div>
+	</div>
+	</div>
+			<!---End-about---->
+			<!---End-content----->
+		</div>
+		<div class="clear"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+		<!---start-footer----->
+		<div class="footer">
+			<div class="wrap">
+				<div class="footer-left">
+					<a href="index.html">NATURAL BEAUTY</a>
+				</div>
+				<div class="footer-right">
+					<p>Créer par <a href="http://w3layouts.com/">Shine</a></p>
+					<script type="text/javascript">
+							$(document).ready(function() {
+								/*
+								var defaults = {
+						  			containerID: 'toTop', // fading element id
+									containerHoverID: 'toTopHover', // fading element hover id
+									scrollSpeed: 1200,
+									easingType: 'linear' 
+						 		};
+								*/
+								
+								$().UItoTop({ easingType: 'easeOutQuart' });
+								
+							});
+						</script>
+   					 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		</div>
+		<!---End-footer----->
+		<!---End-wrap---->
+	</body>
+</html>
+

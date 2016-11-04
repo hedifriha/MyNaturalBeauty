@@ -1,0 +1,18 @@
+.sendMailDialog {padding:12px 10px;background-color:transparent !important;text-align:left !important;-moz-border-radius:0;-webkit-border-radius:0;font-size:12px;border:none;}
+.sendMailDialog .ui-dialog-titlebar {display:none;padding:0;background:none;border:0px !important;}
+.sendMailDialog .ui-dialog-content{background-color:#FFFFFF;}
+.sendMailDialog .ui-dialog-titlebar-close {display:none;}
+.sendMailDialog .ui-dialog-buttonpane {background:none repeat scroll 0 0 #FFFFFF;border:0 none;margin:0;padding:0;}
+.sendMailDialog .ui-widget-content div {font-size:12px;}
+.sendMailDialog .titre{background-color:#654B66;color:#FFFFFF;font-size:14px;padding:5px;}
+.sendMailDialog .ui-dialog-buttonpane button {background-color:#654B66 !important;background-image:none;border:1px solid #FFFFFF;color:#FFFFFF;float:none;font-size:14px;width:auto;}
+#sendPass #sendMailMotDePass{color:#000000;font-size:14px;}
+#sendPass #sendMailMotDePass input{width:415px !important;}
+#sendPass #mailToContainerFooter {overflow:auto;}
+#sendPass .sendMailDialog{padding:0;}
+#sendPass .sendMailDialog .titre{background-color:#FE2681;color:#FFFFFF;font-size:18px;padding:5px;}
+#sendPass #addContactButton input {background-color:#FFFFFF;border:1px solid #A4A4A4;color:#654B66;height:24px;margin-left:5px;padding:0;width:24px !important;}
+#sendPass #sendMailContent h4{color:#654B66;font-size:12px;font-weight:bold;margin:10px 0 5px;}
+#sendPass #sendMailContent fieldset {border:0 none;padding:6px 0;}
+#sendPass #sendMailContent label {display:block;float:left;font-size:16px;margin-top:3px;width:120px;}
+#sendPass #sendMailContent input, #sendPass #sendMailContent textarea {font-size:14px;width:250px;}
